@@ -8,6 +8,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.khadisapp.R
 import com.example.khadisapp.databinding.ActivityMainBinding
 
+
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     lateinit var navController: NavController
