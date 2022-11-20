@@ -6,19 +6,18 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.khadisapp.model.allHadeest.Data
 import com.example.khadisapp.model.allHadeest.allHadeest
-import com.example.khadisapp.databinding.HadeethItemBinding
-import com.example.khadisapp.R
+import com.example.khadisapp.databinding.KhadisItemBinding
 
 class AdapterRecyclerView : RecyclerView.Adapter<AdapterRecyclerView.RecViewHolder>() {
 
     var list = emptyList<Data>()
 
     class RecViewHolder(view: View): RecyclerView.ViewHolder(view){
-        val binding = HadeethItemBinding.bind(view)
+        val binding = KhadisItemBinding.bind(view)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.hadeeth_item, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.khadis_item, parent, false)
         return RecViewHolder(view)
     }
 
