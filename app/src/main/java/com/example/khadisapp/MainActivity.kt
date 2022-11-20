@@ -1,4 +1,4 @@
-package com.example.hadeethapp
+package com.example.khadisapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

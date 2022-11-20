@@ -1,4 +1,4 @@
-package com.example.hadeethapp
+package com.example.khadisapp
 
 import android.os.Bundle
 import android.view.LayoutInflater
