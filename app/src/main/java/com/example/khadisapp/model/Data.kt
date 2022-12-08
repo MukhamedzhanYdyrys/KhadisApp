@@ -1,11 +1,6 @@
-package com.example.khadisapp.model.allHadeest
+package com.example.khadisapp.model
 
-import androidx.room.ColumnInfo
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-
-@Entity(tableName = "allHadeethInCategory")
 data class Data(
-    @PrimaryKey() val id: String,
-    @ColumnInfo(name = "title") val title: String
+    val id: String,
+    val title: String
 )

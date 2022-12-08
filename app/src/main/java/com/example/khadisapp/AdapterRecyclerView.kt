@@ -4,9 +4,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.khadisapp.model.allHadeest.Data
-import com.example.khadisapp.model.allHadeest.allHadeest
 import com.example.khadisapp.databinding.KhadisItemBinding
+import com.example.khadisapp.model.Data
+import com.example.khadisapp.model.allHadeest
+
 
 class AdapterRecyclerView : RecyclerView.Adapter<AdapterRecyclerView.RecViewHolder>() {
 

@@ -1,4 +1,4 @@
-package com.example.khadisapp.model.allHadeest
+package com.example.khadisapp.model
 
 data class Meta(
     val current_page: String,
